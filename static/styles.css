@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+body {
+  font-family: "Arimo", sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+.nav ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-left: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.nav ul > li, .nav li * {
+  display: block;
+  flex: 0 1 auto;
+  /* Default */
+  background: transparent !important;
+  margin-top: 10px;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 3px;
+}
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav a:visited {
+  text-decoration: none;
+}
+.nav a:hover {
+  cursor: pointer;
+}
+
+#bgImage {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: -2;
+}
+
+.bg-image {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  margin-left: 400px;
+  margin-top: 80px;
+}
+.title img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.targetDiv {
+  color: #ffffff;
+}
+
+.synopsis, .cast {
+  margin-top: 50px;
+  height: 100%;
+  width: 600px;
+  float: right;
+  margin-left: 150px;
+  padding: 80px;
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+.synopsis p, .cast p {
+  margin-top: 40px;
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  background: transparent !important;
+  line-height: 30px;
+}
+.synopsis img, .cast img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.cast {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  float: right;
+  margin-right: 200px;
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.trailer {
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.trailer iframe {
+  width: 100%;
+  height: 80%;
+  background: transparent !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
