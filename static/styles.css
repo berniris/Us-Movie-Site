@@ -121,14 +121,13 @@ body {
 
 .trailer {
   background: rgba(0, 0, 0, 0.5) !important;
-  width: 1000px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 .trailer iframe {
-  width: 100%;
-  height: 80%;
-  background: transparent !important;
+  width: 1150px;
+  height: 620px;
 }
 
 /*# sourceMappingURL=styles.css.map */
